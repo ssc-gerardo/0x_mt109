@@ -1,0 +1,70 @@
+1 .- Explain the difference between Unit Tests, Integration Tests, and Acceptance Tests.
+
+El unit testing es un tipo de prueba que se realiza para probar su una pequeña pieza del codigo esta haciendo lo que se espera que haga.
+
+El Integration testing es un tipo de prueba que prueba si las diferentes piezas de los modulos están trabjando en conjunto.
+
+El Acceptance testing es un ipo de prueba para determinar se se cumplen ciertos requisitos de una especificacion o contrato.
+
+2.- How does SCRUM work?
+
+Scrum es un marco de trabajo que permite el trabajo colaborativo.
+
+El proceso de scrum se basa en ciclos ierativos llamados Sprints que generalmente duran de 2 a 4 semanas.
+Tambien existen los daylis. El daily en scrum es una reunión de 15 minutos de duración, del equipo de desarrollo scrum,
+en el que se sincronizan las actividades que están ocurriendo en el sprint.
+General mente en estos daylis se hacen las siguientes preguntas.
+¿Qué he hecho desde el último daily?
+¿Qué haré durante el día de hoy?
+¿He visto o encontrado algún impedimento?
+
+3.- Explain how Test-Driven Development (TDD) works and why it is important to use it.
+
+El Test Driven Developmentv es un enfoque de desarrollo de software en el que se desarrollan casos de prueba para especificar y validar lo que hará el código. 
+Los casos de prueba para cada funcionalidad se crean y prueban primero y si la prueba falla,
+el nuevo código se escribe para pasar la prueba, esto es impórtante ya que nos ayuda a que el código sea simple y sin errores.
+
+El desarrollo basado en pruebas comienza con el diseño y desarrollo de pruebas para cada pequeña funcionalidad de una aplicación.
+TDD indica a los desarrolladores que escriban código nuevo solo si una prueba automatizada ha fallado
+
+4.- Explain how Continuous Integration and Continuous Delivery works and list its benefits.
+
+La Integración Continua (CI) permite integrar continuamente código en un único repositorio compartido. 
+Continuous Delivery (CD) permite tomar el código almacenado en el repositorio y entregarlo continuamente a producción. 
+
+Algunos beneficions son:
+
+Pequeños cambios en el código
+Aislamientos de fallas
+Tiempo medio de resolución más rápido 
+Atrasos más pequeños
+Satisfacción del cliente
+Aumentar la transparencia y la responsabilidad del equipo
+
+5.- What is the difference between a monolithic application and an application based in microservices?
+
+Una aplicación monolítica es una sola unidad unificada, 
+una arquitectura de microservicios la divide en una colección de unidades independientes más pequeñas.
+Estas unidades llevan a cabo todos los procesos de solicitud como un servicio independiente. 
+Entonces, todos los servicios tienen su propia lógica y la base de datos, además de realizar las funciones específicas.
+
+6.- Describe a use case to implement Serverless.
+
+Computación activada por eventos, cuando trabajaba en wallia necesitabamos que una tarea se ejecutara cada cierto tiempo.
+una opcion era usar alguna funcionalidad Serverless para que se ejecutara ese script cada cierto tiempo.
+
+7.- What are the main DevOps principles ?
+
+8.- What are your 3 favorite open source projects and why ?
+TensorFlow
+Me llego a facilitar la codificacion de algoritmos de machin learning anteriormente 
+elementary os
+por algunos años elementary Os fue mi SO preferido ya que se parece a macOs y le daba un muy buen look a un sistema basado en ubuntu
+Django
+Hasta ahiora es mi framework favorito para hacer backend
+
+9.- List 3 books that have impacted and improved your professional career as a developer.
+
+[Michael Sipser] Introducción a la teoría de la computación
+    Mi libro favorito de la facultad ya que ahi se explica bastante bien con un lenguaje formal y matematico la teoria de la computación.
+
