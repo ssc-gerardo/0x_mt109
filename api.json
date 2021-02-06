@@ -1,0 +1,23 @@
+- POST /v1/actor
+- GET /v1/actor/:id
+- PUT /v1/actor/:id
+- PATCH /v1/actor/:id
+- DELETE /v1/actor/:id
+
+- POST /v1/serie
+- GET /v1/serie/:id
+- PUT /v1/serie/:id
+- PATCH /v1/serie/:id
+- DELETE /v1/serie/:id
+
+- POST /v1/episodio
+- GET /v1/episodio/:id
+- PUT /v1/episodio/:id
+- PATCH /v1/episodio/:id
+- DELETE /v1/episodio/:id
+
+- POST /v1/director
+- GET /v1/director/:id
+- PUT /v1/director/:id
+- PATCH /v1/director/:id
+- DELETE /v1/director/:id
