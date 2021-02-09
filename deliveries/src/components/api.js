@@ -1,5 +1,5 @@
 
-import Jason from './routes.json';
+import Jason from './routes2.json';
 
 class ServicioAPI{
     get_routes(){

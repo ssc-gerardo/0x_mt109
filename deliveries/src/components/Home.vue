@@ -32,11 +32,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-2" > <button type="button" class="btn btn-primary btn-block" style="border-radius: 15px; margin: 5px;">{{item.deliveries}}</button></div>
+                <div class="col-sm-2" > <button type="button" class="btn btn-primary btn-block" style="border-radius: 10px; margin: 3px;">{{item.status}}</button></div>
               </div>
         </div>
       </div>
     </div>
+    <button v-on:click="('hello world')">send message</button>
     <!-- <div class="card">
       <div class="card-body" style=" border-left: 4px solid rgba(60, 200, 4, 0.76);">
           <div class="row">
@@ -152,13 +153,36 @@ export default {
     data(){
       return{
         routes:[],
+        conection: null
       }
-    },
-    methos:{
     },
     mounted(){
       this.routes = api.get_routes();
-    }
+    },
+    created: function(){
+        console.log("Starting connection to websocket server")
+        this.conection = new WebSocket("ws://localhost:8080")
+
+        this.conection.onopen = function(event){
+            console.log(event)
+            console.log("Succesfully connected to the echo WebSocket server")
+        }
+        this.conection.onmessage = function(event){
+            console.log(event)
+            console.log(event.data)
+            //console.log(this.data.routes)
+            console.log(this.routes)
+            //this.routes[parseInt(event.data.route_id)].status = event.data.status
+            //this.routes[parseInt(event.data.route_id)].deliveries = event.data.deliveries
+            //this.routes[parseInt(event.data.route_id)].completed_At = event.data.completed_At
+        }
+    },
+    methods:{
+        cambio() {
+            console.log("rutas")
+             console.log(this.routes)
+        },
+    },
 }
 </script>
 
